@@ -16,6 +16,7 @@ Wav *create_wav();
 void Destroy_wav(Wav *);
 
 void print_header(Wav *);
-u_int8_t load_header(const char *, Wav *);
+u_int8_t load_wav_file(const char *, Wav *);
+
 
 #endif

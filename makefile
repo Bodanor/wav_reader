@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -g #-Wall -g -Wextra -Wno-unused-parameter -Werror=return-type -pedantic -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -fpie -Wl,-pie -O2 -pipe -fno-ident 
+CFLAGS = -g -Wall -Wextra -Wno-unused-parameter -Werror=return-type -pedantic -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -fpie -Wl,-pie -O2 -pipe -fno-ident 
 
 C_SOURCE := $(wildcard *.c)
 C_OBJECTS := $(C_SOURCE:.c=.o)
